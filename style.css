@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    outline: 0;
+}
+html, body{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.all{
+    height: 100%;
+    border: 0.2rem black solid;
+}
+
+header{
+    height: 15rem;
+    background: blueviolet;
+    border: 0.2rem black solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.circulo{
+    height: 15rem;
+    width: 15%;
+    background: green;
+    border-right: 0.2rem black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 15rem;
+    width: 15rem;
+    background: ghostwhite;
+    border-radius: 100%;
+    border: 0.2rem black solid;
+}
+.nome{
+    height: 15rem;
+    width: 20%;
+    background: red;
+    border-right: 0.2rem black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    height: 5rem;
+    width: 25rem;
+    background: blue;
+    border: 0.2rem black solid;
+}
+.barra{
+    height: 15rem;
+    width: 40%;
+    background: orange;
+    border-right: 0.2rem black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height: 5rem;
+    width: 50rem;
+    background: gold;
+    border: 0.2rem black solid;
+    border-top: 0.2rem black solid;
+}
+.botao{
+    height: 15rem;
+    width: 25%;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+section{
+    height: 4rem;
+    width: 10rem;
+    background: tomato;
+    border: 0.2rem black solid;
+    border-radius: 30rem;
+    margin: 1rem;
+}
+.area{
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: peru;
+}
+.retangulo{
+    width: 70%;
+    height: 40rem;
+    background: honeydew;
+    border: 0.2rem black solid;
+}
